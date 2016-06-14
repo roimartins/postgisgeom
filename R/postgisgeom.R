@@ -10,6 +10,7 @@
 #' postgisgeom(us="Your", pw = "Name12")
 
 
+install_github("klutometis/roxygen")
 
 #library(devtools)
 
@@ -23,7 +24,8 @@ library(rgdal)
 ### get polygons from mpa areas ###
 
 
-postgisgeom <- function(us, pw ) {
+
+postgisgeom <- function(us, pw, envel ) {
   
   
   
