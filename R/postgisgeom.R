@@ -13,8 +13,7 @@
 
 library(devtools)
 
-getwd()
-create("rpackage")
+
 
 library(RODBC)
 library(RPostgreSQL)
