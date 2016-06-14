@@ -1,8 +1,8 @@
 Package: rpackage
-Title: What the Package Does (one line, title case)
+Title: PostGIS from R
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Roi", "Martinez", email = "roi.martinez@cefas.co.uk", role = c("aut", "cre"))
+Description: PostGIS connection from R and convert PostGIS geometry column into R sp object.
 Depends: R (>= 3.2.4)
 License: What license is it under?
 Encoding: UTF-8
