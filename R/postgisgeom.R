@@ -22,13 +22,10 @@ library(rgdal)
 
 ### get polygons from mpa areas ###
 
-
 pw <- {
   "postgres1233"
 }
 
-
-tt <- postgisgeom("postgres","postgres1234")
 
 postgisgeom <- function(us, pw ) {
   
@@ -47,7 +44,7 @@ postgisgeom <- function(us, pw ) {
   
   
   
-  rr <- dbGetQuery(con, "select gid,site_name, st_asewkt(geom) as geom from geography_general.ospar_mpas")
+  rr <- dbGetQuery(con, "select gid,site_name, st_asewkt(geom) as geom from geography_general.ospar_mpas_simples")
   
   dbDisconnect(con)
   dbUnloadDriver(drv)
