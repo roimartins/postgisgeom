@@ -10,9 +10,6 @@
 #' postgisgeom(us="Your", pw = "Name12")
 
 
-#install_github("klutometis/roxygen")
-
-new_change <- "uno"
 
 #library(devtools)
 
