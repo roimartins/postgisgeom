@@ -1,4 +1,4 @@
-Package: rpackage
+Package: postgisgeom
 Title: PostGIS from R
 Version: 0.0.0.9000
 Authors@R: person("Roi", "Martinez", email = "roi.martinez@cefas.co.uk", role = c("aut", "cre"))
