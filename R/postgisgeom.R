@@ -10,7 +10,7 @@
 #' postgisgeom(us="Your", pw = "Name12")
 
 
-install_github("klutometis/roxygen")
+#install_github("klutometis/roxygen")
 
 #library(devtools)
 
