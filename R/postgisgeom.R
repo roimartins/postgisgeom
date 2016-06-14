@@ -11,7 +11,7 @@
 
 
 
-library(devtools)
+#library(devtools)
 
 
 
@@ -21,10 +21,6 @@ library(rgeos)          # Geostatistical Package developed for R platform /  geo
 library(rgdal)
 
 ### get polygons from mpa areas ###
-
-pw <- {
-  "postgres1233"
-}
 
 
 postgisgeom <- function(us, pw ) {
